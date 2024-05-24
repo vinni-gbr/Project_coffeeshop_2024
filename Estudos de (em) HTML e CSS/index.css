@@ -1,7 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body {
     background-color: rgb(204, 124, 20);
@@ -13,30 +10,11 @@ body {
     box-shadow: 2px 2px 2px 2px;
 }
 
-.logo {
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 04px;
-    text-decoration: none;
-    color: rgb(206, 143, 27);
+.logo img {
+    width: 90px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
-.nav-bar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
-    /* vh = Viewport (Responsivo para adaptar-se à tela) */
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li {
-    margin-left: 32px;
-}
 
 .nav-link {
     text-transform: uppercase;
