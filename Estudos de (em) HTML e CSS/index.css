@@ -5,19 +5,12 @@
 
 body {
     background-color: rgb(204, 124, 20);
-    margin: 0px;
 }
 
 .header {
     background-color: rgb(0, 0, 0);
     box-shadow: 2px 2px 2px 2px;
 }
-
-.logo img {
-    width: 90px; /* Ajuste a largura conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
 
 .nav-link {
     text-transform: uppercase;
@@ -27,18 +20,13 @@ body {
     letter-spacing: 1px;
 }
 
-.nav-link.active {
-    transform: translateX(0);
-}
-
 .page {
     width: 90vw;
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 1.5s ease;
-
+    transition: transform 2s ease;
 }
 
 .page img {
