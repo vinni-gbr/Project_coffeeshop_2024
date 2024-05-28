@@ -16,6 +16,12 @@ body {
     height: 100vh;
 }
 
+img {
+    border-radius: 90px;
+    height: 200px;
+    
+}
+
 
 
 
