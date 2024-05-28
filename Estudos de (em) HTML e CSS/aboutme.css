@@ -4,5 +4,24 @@
 }
 
 body {
-    background-color:rgb(228, 147, 72);
+    background-color:rgb(212, 192, 147);
+    display: flex;
+    height: 100%;
 }
+
+.left {
+    background-color: rgb(228, 147, 72);
+    box-shadow: 2px 2px 50px 2px rgb(255, 255, 255);
+    width: 70%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+/* Cores para identificação :  rgb(212, 192, 147)
+                                rgb(228, 147, 72) */
